@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Sans' ;
+  src: url(../font/OpenSans.ttf);
+}
+
+@media (max-width: 4000px){
+  body{
+    display: flex;
+    background-color: rgb(33, 33, 33);
+    font-family: 'Sans';
+  }
+
+  .main{
+    margin: auto;
+    width: max-content;  
+    padding-bottom: 10px;
+    padding-top: 50px;
+  }
+}
+            
+@media (max-width: 425px){
+  body{
+    background-color: #575757e5;
+  }
+
+  .main{
+    padding-bottom: 20px;
+  }
+}
+
+
+#box{
+  border: 2px dashed #ffffff;
+  width: 200px;
+  height: 290px;
+  margin-bottom: 30px;
+}
+
+button{
+  cursor: pointer;
+  display: block;
+  width: 170px;
+  height: 35px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: 403ms;
+  text-decoration-color: #ffffff;
+}
+
+#azul{ background-color: #387ab0;}
+#verde{ background-color: #79da17;}
+#vermelho{ background-color: #ff6b6b;}
+
+#azul:hover{
+  background-color: #003a6a;
+}
+
+#verde:hover{
+  background-color: #007e36;
+}
+
+#vermelho:hover{
+  background-color: #b30021;
+}
+
+h1{
+  margin: 12px;
+  color: aliceblue;
+  text-align: center;
+}
+
+#sad{
+  block-size: 200px;
+}
+
+#botoes{
+  padding-left: 17px;
+}
